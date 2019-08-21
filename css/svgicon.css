@@ -1,0 +1,51 @@
+
+.oversigttop, .oversigtbot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: #084085;
+}
+
+.nemme, .varme, .is, .bagning{
+    margin-top: 30px;
+}
+
+
+@media screen and (min-width: 721px) {
+   .oversigttop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.oversigtbot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.nemme, .varme, .is, .bagning{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+} 
+    
+}
+
+    
+@media screen and (min-width: 1000px) {
+
+
+
+
+
+
+}

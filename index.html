@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thise Naturel</title>
+    <meta name="description" content="Velkommen til Thise Naturel">
+    
+    
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+    <div class="forside">
+        <header>
+            <div class="forsideheader">
+                <!-- navbar til større skærm -->
+                <nav>
+                    <div class="navbar">
+                        <a href="index.html"><img id="forsidelogo" src="images/logo%20alternativ.png" alt="logo"></a>
+                        <ul>
+                            <li><a href="oversigt.html">Opskrifter</a></li>
+                            <li>
+                                <a href="toppings.html">
+                                    Toppings</a></li>
+                            <li><a href="produkt.html">Produktet</a></li>
+
+
+                            <li><a href="om.html">Om Thise</a></li>
+                            <li><a href="qa.html">Q&amp;A</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- navbar til større skærm slut -->
+                <!-- mobil burgermenu -->
+                <nav>
+                    <div id="sidebar">
+                        <div class="button" onclick="toggleSidebar()">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                        <!--
+                        <ul>
+
+                            <li><a href="index.html">Hjem</a></li>
+                            <li>
+                                <a href="masala.html">Opskrifter</a></li>
+                            <li>
+                                <a href="toppings.html">
+                                    Toppings</a></li>
+                            <li><a href="produkt.html">Produktet</a></li>
+
+
+                            <li><a href="om.html">Om Thise</a></li>
+                            <li><a href="qa.html">Q&amp;A</a></li>
+                        </ul>
+                        -->
+                        <div class="mobilmenu">
+                    
+                    <a href="index.html"><div class="link">
+                        <p>Hjem</p>
+                        </div>
+                        </a>
+                        
+                    <a href="oversigt.html"><div class="link">
+                        <p>Opskrifter</p>
+                        </div>
+                        </a>
+                        
+                    <a href="toppings.html"><div class="link">
+                        <p>Toppings</p>
+                        </div>
+                        </a>
+                        
+                    <a href="produkt.html"><div class="link">
+                        <p>Produktet</p>
+                        </div>
+                        </a>
+                        
+                    <a href="om.html"><div class="link">
+                        <p>Om Thise</p>
+                        </div>
+                        </a>
+                        
+                    <a href="qa.html"><div class="link">
+                        <p>Q&amp;A</p>
+                        </div>
+                        </a>
+                    
+                    </div>
+                    </div>
+
+                </nav>
+            </div>
+
+            <script>
+                /* JS til burgermenu*/
+                function toggleSidebar() {
+                    document.getElementById("sidebar").classList.toggle('slide');
+                }
+            </script>
+
+        </header>
+
+        <article id="forsidearticle">
+            <div class="forsidenaturel">
+                <img src="images/logo%20kopier.png" alt="naturel">
+            </div>
+
+            <div class="forsideintro">
+                <img src="images/naturel%201.5.png" alt="naturel">
+                <div class="forsideintrocontent">
+                    <h2>Velkommen</h2>
+                    <p>Du kan herinde se en masse forskellige ideer til at gøre Yoghurt Naturel mere spændende.
+                    </p>
+                </div>
+            </div>
+            <a href="masala.html">
+                <div class="forsideopskrift">
+                    <div class="forsideopskriftcontent">
+                        <h2>Opskrifter</h2>
+                        <p>Yoghurt Naturel har rigtig mange måder at bruges på og her er en af de mest populærer: Madopskrifter. </p>
+                    </div>
+                    <img src="images/madret.png" alt="opskrifter">
+                </div>
+            </a>
+            <a href="toppings.html">
+                <div class="forsidetoppings">
+                    <img src="images/toppings%20billede.png" alt="toppings" width="120" height="120">
+                    <div class="forsidetoppingscontent">
+                        <h2>Toppings</h2>
+                        <p>Du kan på denne side få et overblik over nogle forskellige eksempler på toppings til din yoghurt naturel</p>
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        <footer id="forsidefooter">
+
+            <div id="omfooter" class="footercontent">
+                <div class="contact">
+                    <h3>Kontakt</h3>
+                    <div class="contactinfo">
+                        <i class="fas fa-at"></i>
+                        <p>info@thise.dk</p>
+                    </div>
+
+                    <div class="contactinfo">
+                        <i class="fas fa-phone"></i>
+                        <p>+45 97 57 80 01</p>
+                    </div>
+
+                    <div class="Facebook">
+                        <a href="https://www.facebook.com/Thisemejeri">
+                            <i class="fab fa-facebook fa-3x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="links">
+                    <h3>Links</h3>
+                    <a href="https://thise.dk/">Thise.dk</a>
+                    <a href="https://mad.coop.dk/specialbutikker/maerker/thise">Tilbudsoversigt</a>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+</body></html>
